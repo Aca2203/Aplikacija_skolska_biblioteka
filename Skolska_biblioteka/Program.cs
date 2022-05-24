@@ -8,7 +8,7 @@ namespace Skolska_biblioteka
 {
     static class Program
     {
-        static public string email = "nikolavucic@SKBibioteka_Z.rs";
+        static public string email = "";
 
         /// <summary>
         /// The main entry point for the application.
@@ -18,7 +18,7 @@ namespace Skolska_biblioteka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Zaposleni());
+            Application.Run(new Login());
         }
     }
 }

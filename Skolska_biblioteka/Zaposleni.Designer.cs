@@ -40,7 +40,6 @@ namespace Skolska_biblioteka
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_obrisi = new System.Windows.Forms.Button();
             this.btn_dodaj = new System.Windows.Forms.Button();
-            this.btn_izmeni = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,6 +121,8 @@ namespace Skolska_biblioteka
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 227);
             this.dataGridView1.Name = "dataGridView1";
@@ -129,43 +130,35 @@ namespace Skolska_biblioteka
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1245, 379);
             this.dataGridView1.TabIndex = 78;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // btn_obrisi
             // 
             this.btn_obrisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_obrisi.Location = new System.Drawing.Point(832, 140);
+            this.btn_obrisi.Location = new System.Drawing.Point(678, 140);
             this.btn_obrisi.Name = "btn_obrisi";
-            this.btn_obrisi.Size = new System.Drawing.Size(213, 34);
+            this.btn_obrisi.Size = new System.Drawing.Size(263, 34);
             this.btn_obrisi.TabIndex = 80;
             this.btn_obrisi.Text = "Обриши резервацију";
             this.btn_obrisi.UseVisualStyleBackColor = true;
+            this.btn_obrisi.Click += new System.EventHandler(this.btn_obrisi_Click);
             // 
             // btn_dodaj
             // 
             this.btn_dodaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_dodaj.Location = new System.Drawing.Point(237, 140);
+            this.btn_dodaj.Location = new System.Drawing.Point(272, 140);
             this.btn_dodaj.Name = "btn_dodaj";
-            this.btn_dodaj.Size = new System.Drawing.Size(198, 34);
+            this.btn_dodaj.Size = new System.Drawing.Size(251, 34);
             this.btn_dodaj.TabIndex = 79;
             this.btn_dodaj.Text = "Додај резервацију";
             this.btn_dodaj.UseVisualStyleBackColor = true;
-            // 
-            // btn_izmeni
-            // 
-            this.btn_izmeni.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_izmeni.Location = new System.Drawing.Point(533, 140);
-            this.btn_izmeni.Name = "btn_izmeni";
-            this.btn_izmeni.Size = new System.Drawing.Size(213, 34);
-            this.btn_izmeni.TabIndex = 81;
-            this.btn_izmeni.Text = "Измени резервацију";
-            this.btn_izmeni.UseVisualStyleBackColor = true;
+            this.btn_dodaj.Click += new System.EventHandler(this.btn_dodaj_Click);
             // 
             // Zaposleni
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1269, 618);
-            this.Controls.Add(this.btn_izmeni);
             this.Controls.Add(this.btn_obrisi);
             this.Controls.Add(this.btn_dodaj);
             this.Controls.Add(this.dataGridView1);
@@ -200,6 +193,5 @@ namespace Skolska_biblioteka
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_obrisi;
         private System.Windows.Forms.Button btn_dodaj;
-        private System.Windows.Forms.Button btn_izmeni;
     }
 }
