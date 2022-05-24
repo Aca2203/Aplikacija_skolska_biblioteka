@@ -1,0 +1,15 @@
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\bin\Debug\Skolska_biblioteka.exe.config
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\bin\Debug\Skolska_biblioteka.exe
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\bin\Debug\Skolska_biblioteka.pdb
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.csprojAssemblyReference.cache
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Login.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Properties.Resources.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.csproj.GenerateResource.cache
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.exe
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.pdb
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Clan.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Administrator.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Zaposleni.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Knjige.resources
+C:\Users\Sale\Desktop\Aplikacije\Aplikacija_skolska_biblioteka\Skolska_biblioteka\obj\Debug\Skolska_biblioteka.Sifarnik.resources
